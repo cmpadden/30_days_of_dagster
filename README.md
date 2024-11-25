@@ -10,5 +10,6 @@ Happy Holidays,
 
 Dagster Team
 
-![image](https://github.com/user-attachments/assets/9eef2fe7-8d05-4265-ab37-8484dea79af4)
-
+<div align="center">
+  <img alt="daggy-reindeer" src="https://github.com/user-attachments/assets/9eef2fe7-8d05-4265-ab37-8484dea79af4" width="auto" height="120px">
+</div>
