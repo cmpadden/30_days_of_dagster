@@ -1,8 +1,3 @@
 # Day 9 
 
-Create an asset pipeline that does three things:
-
-1. Loads the palmer penguins dataset from the `seaborn` package
-2. Checks that the dataset does not contain any missing values
-3. Writes a csv with the count of penguin by species 
-
+Update asset A so that it not only reads a file, but also writes a one-line csv with the header of the file. Update asset B to read this header file. Can you re-factor the two assets so that the logic for reading and writing the file relies on a common resource?

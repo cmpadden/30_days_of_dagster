@@ -1,3 +1,9 @@
 # Day 12 
 
-Create a pipeline with 3 assets, asset A, asset B, and asset C. Asset A should return a number greater than 10 70% of the time. The other 30% of the time, it should return a number less than 10. If A is great than 10, asset B should execute. If A is less than 10, asset C should execute.
+Update the penguin pipeline from day 10 to have a few more steps:
+
+1. An asset summarizing the count of penguins by species
+2. An asset with the max attribute for each species
+3. An asset with the min attribute for each species
+
+Make it easy to re-run assets 2 and 3 in this pipeline for only one species, or to run those assets for each species in parallel.

@@ -1,3 +1,8 @@
 # Day 10 
 
-Modify the pipeline from yesterday, assuming the code for loading and summarizing the dataset must remain in a separate file called `data_scientists_want_this_in_prod.py`.
+Create an asset pipeline that does three things:
+
+1. Loads the palmer penguins dataset from the `seaborn` package
+2. Checks that the dataset does not contain any missing values
+3. Writes a csv with the count of penguin by species 
+

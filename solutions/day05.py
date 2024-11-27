@@ -7,6 +7,7 @@ import pandas as pd
 @asset 
 def bike_raw():
     df = pd.read_csv('solutions/bike_info.csv')
+    print(df)
     return df
 
 @asset(
