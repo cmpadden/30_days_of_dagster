@@ -1,3 +1,4 @@
-# Day 11 
+# Day 11
 
-Modify the pipeline from yesterday, assuming the code for loading and summarizing the dataset must remain in a separate file called `data_scientists_want_this_in_prod.py`.
+Now that the data pipeline has two meaningful assets, we want to prevent errors in data quality. Add an asset check to ensure asset A does not pass bad data to asset B.
+

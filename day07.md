@@ -1,3 +1,3 @@
-# Day 7
+# Day 7 
 
-Instead of running asset A every minute, figure out a way to make asset A only run when there is a change to your CSV file.
+Implement an asset downstream of your first asset. Explore ways of passing data between assets.
